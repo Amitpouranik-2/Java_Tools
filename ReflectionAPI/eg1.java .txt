@@ -1,0 +1,36 @@
+class Student
+{
+private int RollNumber;
+private String name;
+public String City;
+
+public void setRollNumber( int RollNumber)
+{
+this.RollNumber = RollNumber;
+}
+
+public int getRollNumber()
+{
+return this.RollNumber;
+}
+
+
+public void setName(int name)
+{
+this.name = name;
+}
+
+public int getName()
+{
+return this.name;
+}
+
+public void Process()
+{
+System.out.println("Whatever");
+}
+
+public void doSomething(String a , String b , Integer c , int d)
+{
+}
+}

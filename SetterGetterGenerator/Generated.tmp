@@ -1,0 +1,84 @@
+publicStudent()
+{
+this.FirstName="";
+this.lastName="";
+this.mobileNumber=0;
+this.CGPA=0.0f;
+this.fees=0.0;
+this.isIndian=false;
+this.panNumber="";
+this.aadharCardNumber="";
+this.gender='';
+}
+public void setFirstName(java.lang.String FirstName)
+{
+this.FirstName=FirstName;
+}
+public java.lang.String getFirstName()
+{
+return this.FirstName;
+}
+public void setLastName(java.lang.String lastName)
+{
+this.lastName=lastName;
+}
+public java.lang.String getLastName()
+{
+return this.lastName;
+}
+public void setMobileNumber(int mobileNumber)
+{
+this.mobileNumber=mobileNumber;
+}
+public int getMobileNumber()
+{
+return this.mobileNumber;
+}
+public void setCGPA(float CGPA)
+{
+this.CGPA=CGPA;
+}
+public float getCGPA()
+{
+return this.CGPA;
+}
+public void setFees(double fees)
+{
+this.fees=fees;
+}
+public double getFees()
+{
+return this.fees;
+}
+public void setIsIndian(boolean isIndian)
+{
+this.isIndian=isIndian;
+}
+public boolean getIsIndian()
+{
+return this.isIndian;
+}
+public void setPanNumber(java.lang.String panNumber)
+{
+this.panNumber=panNumber;
+}
+public java.lang.String getPanNumber()
+{
+return this.panNumber;
+}
+public void setAadharCardNumber(java.lang.String aadharCardNumber)
+{
+this.aadharCardNumber=aadharCardNumber;
+}
+public java.lang.String getAadharCardNumber()
+{
+return this.aadharCardNumber;
+}
+public void setGender(char gender)
+{
+this.gender=gender;
+}
+public char getGender()
+{
+return this.gender;
+}
